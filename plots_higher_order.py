@@ -1,5 +1,5 @@
 """
-Version number 1: 20/12/2022
+Version: 20/12/2022
 @author: mcanela
 """
 import matplotlib.pyplot as plt
