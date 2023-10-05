@@ -6,16 +6,13 @@ from pathlib import Path
 
 # the user_name should be the name of your session
 user_name = getuser()
-paths = {'mcanela': {'basepath': Path('C:/Users/mcanela/Desktop/Python'),
-                     'dlcpath': Path('C:/Users/mcanela/Desktop/Python/Data/dlc'),   # CSV files from Deeplabcut
-                     # 'fppath': Path('C:/Users/mcanela/Desktop/Python/Data/photometry'),
-                     'table_path': Path('C:/Users/mcanela/Desktop/Python/Mice.txt'),   # Mice file
-                     'figures': Path('C:/Users/mcanela/Desktop/Python/Figures'),
-                     # 'succinate': Path('C:/Users/mcanela/Desktop/Python/Data/Serotonin_Succinate'),
-                     # 'cfc': Path('C:/Users/mcanela/Desktop/Python/Data/CFC'),
-                     'poly': Path('C:/Users/mcanela/Desktop/Python/Data/dat'),  # Data files from the polybox
-                     'video_path': Path('C:/Users/mcanela/Desktop/Python/Data/videos'),
-                     'lengths_path': Path('C:/Users/mcanela/Desktop/Python/Freezing periods')
+paths = {'mcanela': {'basepath': Path('C:/Users/mcanela/Desktop/Python'), # Folder to your Python folder
+                     'dlcpath': Path('C:/Users/mcanela/Desktop/Python/Data/dlc'), # Folder with the CSV files from DLC
+                     'table_path': Path('C:/Users/mcanela/Desktop/Python/Mice.txt'), # Mice.txt file
+                     'figures': Path('C:/Users/mcanela/Desktop/Python/Figures'), # Folder where to save your images
+                     'poly': Path('C:/Users/mcanela/Desktop/Python/Data/dat'), # Folder with the DAT files from the polybox
+                     'video_path': Path('C:/Users/mcanela/Desktop/Python/Data/videos'), # Folder with the AVI videos from the polybox
+                     'lengths_path': Path('C:/Users/mcanela/Desktop/Python/Freezing periods') # Folder where to store your freezing lengths.
                      }}
 
 upaths = paths[user_name]
