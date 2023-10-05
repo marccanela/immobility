@@ -55,7 +55,11 @@ Just open the **behavior_analysis.py** script and run it. Some considerations:
 
 In the **plots_higher_order.py**, there are different functions to generate plots from the output data frame of behavior_analysis.py. here there are some examples of plots:
 
+![Timelapse plot](https://github.com/marccanela/immobility/blob/main/timelapse%20plot.png?raw=true)
 
+![Boxplot](https://github.com/marccanela/immobility/blob/main/boxplot.png?raw=true)
+
+![Barplot](https://github.com/marccanela/immobility/blob/main/barplot.png)
 
 
 
