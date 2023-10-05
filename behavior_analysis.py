@@ -1,5 +1,6 @@
 """
 Version: 05/10/2023
+@authors: jpinho & mcanela
 """
 
 from pathlib import Path
