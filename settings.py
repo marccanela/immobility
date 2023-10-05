@@ -1,5 +1,6 @@
 """
 Version: 20/12/2022
+@author: jpinho
 """
 from getpass import getuser
 from pathlib import Path
