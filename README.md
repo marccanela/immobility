@@ -1,9 +1,9 @@
 # immobility
 Analysis of immobility from polybox videos analyzed with DeepLabCut (DLC).
-Standard protocol from Busquets-Garcia Lab.
+Protocol for Busquets-Garcia Lab.
 
 ## Before starting
-- Download the python scripts from this repository.
+- Download the Python scripts from this repository.
 - Create a folder in your computer named **Python**.
 - Inside **Python** create the following folders:
   - **Freezing periods**. It will contain the generated freezing periods of each video, stored as CSV files.
@@ -24,3 +24,6 @@ To sum up, this is what you need to start:
 | dat | /Python/Data/dat/ | DAT files from the polybox |
 | dlc | /Python/Data/dlc/ | CSV files from the DLC |
 | videos | /Python/Data/videos/ | AVI files from the polybox |
+
+Now it's time to create a **Mice file**. Create an Excel file with the following columns:
+- 
