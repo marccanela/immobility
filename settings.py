@@ -1,3 +1,6 @@
+"""
+Version: 20/12/2022
+"""
 from getpass import getuser
 from pathlib import Path
 
