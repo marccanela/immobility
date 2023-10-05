@@ -45,6 +45,13 @@ Now save the file as a CSV file, then save the CSV as a TXT file.
 
 Open the **setting.py** file and modify it to fit your directories. You have to change both the username and the directories of the folders you previously created. Once done, save your file.
 
+## Loading the behavior_analysis.py
+
+Just open the **behavior_analysis.py** script and run it. Some considerations:
+- After the analysis, you will obtain a huge data frame with the results of your analysis. To avoid repeating the analysis in the future, a CSV copy of this data frame will be automatically saved in your folder.
+- Sometimes, you may obtain an error with some videos, especially with those longer ones. In that case, repeat the analysis omitting those videos.
+
+## Loading the plots_higher_order.py
 
 
 
