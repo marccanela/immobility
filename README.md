@@ -53,6 +53,7 @@ Just open the **behavior_analysis.py** script and run it. Some considerations:
 
 ## Loading the plots_higher_order.py
 
+In the **plots_higher_order.py**, there are different functions to generate plots from the output data frame of behavior_analysis.py. 
 
 
 
